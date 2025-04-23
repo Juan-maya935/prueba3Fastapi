@@ -13,4 +13,4 @@ def test_read_root():
 def test_read_2_root():
     response = client.get("/hello")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello world"}
+    assert response.json() == {"message": "Hello World"}
